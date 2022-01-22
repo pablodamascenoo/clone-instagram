@@ -3,8 +3,12 @@ body {
     background-color: #FAFAFA;
 }
 
+p{
+    font-size: 14px;
+}
+
 strong{
-    font-weight: bold;
+    font-weight: 500;
 }
 
 input:focus{
@@ -73,6 +77,10 @@ ion-icon{
 
 .nav_icon{
     margin-right: 25px;
+}
+
+.nav_icon:last-child{
+    margin-right: 0;
 }
 
 .stories-box, .post{
@@ -148,7 +156,7 @@ ion-icon{
 
 
 .post {
-    height: 749px;
+    max-height: inherit;
     margin-bottom: 60px;
 }
 
@@ -181,7 +189,7 @@ ion-icon{
 }
 
 .post-footer{
-    margin: 6px 15px;
+    margin: 6px 15px 0px;
 }
 
 .left-icons ion-icon{
@@ -201,6 +209,55 @@ ion-icon{
 
 .curtidas img{
     margin-right: 5px;
+}
+
+.comments {
+    margin: 15px 0;
+}
+
+.comments > p:last-child{
+    margin-top: 5px;
+    color: #8E8E8E;
+}
+
+.comment-area {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    width: 100%;
+    padding: 6px 15px;
+    margin-left: -16px;
+    border: 1px solid #DBDBDB;
+    border-bottom: 0;
+}
+
+.comment-text {
+    width: 90%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.comment-text > input {
+    margin-left: 10px;
+    width: 100%;
+    border: none;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+button{
+    border: none;
+    cursor: pointer;
+    font-family: "Roboto";
+    background-color: transparent;
+    color: #B2DFFC;
+    transition: 300ms;
+}
+
+button:hover {
+    color: #0095F6;
 }
 
 .main {
