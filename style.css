@@ -166,7 +166,7 @@ ion-icon{
     margin-right: 15px;
 }
 
-.post img:nth-child(2){
+.post img:nth-child(2), video{
     height: 80%;
     width: 100%;
 }
